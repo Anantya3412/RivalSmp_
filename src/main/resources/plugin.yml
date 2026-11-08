@@ -1,0 +1,16 @@
+name: RivalSMP
+version: 1.0.0
+main: com.rivalsmp.RivalSMP
+api-version: '1.21'
+author: RivalSMP
+description: Custom SMP weapons and lifesteal foundation.
+commands:
+  rivalsmp:
+    description: Main RivalSMP command
+    usage: /rivalsmp
+    aliases: [rsmp]
+permissions:
+  rivalsmp.admin:
+    default: op
+  rivalsmp.use:
+    default: true

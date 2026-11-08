@@ -1,0 +1,55 @@
+settings:
+  prefix: "&8[&cRivalSMP&8] "
+  resource-pack-hint: true
+lifesteal:
+  enabled: true
+  starting-hearts: 10
+  maximum-hearts: 20
+  minimum-hearts: 1
+  hearts-per-kill: 1
+  hearts-lost-on-death: 1
+weapons:
+  blood-sword:
+    soul-feast-hearts: 1.0
+    battle-instinct-strength: 0
+    heartbreaker:
+      max-health-reduction-hearts: 3.0
+      duration-seconds: 20
+      cooldown-seconds: 600
+  dooms-hammer:
+    hits-required: 10
+    thunderfall-damage: 8.0
+    lightning-min: 3
+    lightning-max: 4
+    lightning-radius: 6.0
+  scythe:
+    critical-lightning-extra-damage: 2.0
+    rhythm-hits: 3
+    rhythm-duration-seconds: 4
+  killer-knife:
+    combo-hits: 3
+    combo-bonus-damage: 3.0
+    backstab-bonus-damage: 4.0
+    twin-execution-throws: 2
+    twin-execution-damage: 6.0
+    hits-to-charge: 25
+  auto-bow:
+    cooldown-seconds: 240
+    storage-capacity: 64
+    burst-duration-seconds: 10
+  crossbow:
+    sonic-beams: 3
+    sonic-damage: 10.0
+    cooldown-seconds: 300
+  ban-hammer:
+    kill-hearts: 2.0
+    protect-permission: rivalsmp.banhammer.protected
+
+announcements:
+  enabled: true
+  animation-frames: 18
+  frame-interval-ticks: 4
+  title-stay-ticks: 13
+  chat-gradient:
+    start: "#AA46FF"
+    end: "#37DCFF"
