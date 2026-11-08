@@ -44,7 +44,8 @@ public final class RivalSMP extends JavaPlugin implements Listener, CommandExecu
             sender.sendMessage(color("&cRivalSMP &7v" + getDescription().getVersion()));
             sender.sendMessage(color("&e/rivalsmp give <player> <weapon>"));
             sender.sendMessage(color("&e/rivalsmp list"));
-            sender.sendMessage(color("&e/rivalsmp reload"));\n            sender.sendMessage(color("&e/rivalsmp announce <message>"));
+            sender.sendMessage(color("&e/rivalsmp reload"));
+            sender.sendMessage(color("&e/rivalsmp announce <message>"));
             return true;
         }
         if (args[0].equalsIgnoreCase("list")) {
